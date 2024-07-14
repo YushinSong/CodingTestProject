@@ -1,8 +1,8 @@
-package src.recursion;
+package src.dfs;
 
 import java.util.Scanner;
 
-public class Beakjoon14888{
+public class Baekjoon14888 {
     private static int N;
     private static int maxValue = Integer.MIN_VALUE;
     private static int minValue = Integer.MAX_VALUE;
