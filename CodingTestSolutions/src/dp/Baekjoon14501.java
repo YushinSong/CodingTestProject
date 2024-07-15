@@ -3,11 +3,16 @@ package src.dp;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Baekjoon14501 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        Map<System, Integer> sdf = new HashMap<>();
 
         int days = Integer.parseInt(br.readLine());
 
