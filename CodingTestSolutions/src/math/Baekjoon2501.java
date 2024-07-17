@@ -1,4 +1,4 @@
-package src.basics;
+package src.math;
 
 import java.util.Scanner;
 
