@@ -23,7 +23,6 @@ public class Baekjoon11725 {
             List<Integer> newList = new ArrayList<>();
             list.add(newList);
         }
-
         for(int i = 0; i < N - 1; ++i){
             String[] readLine = br.readLine().split(" ");
             list.get(Integer.parseInt(readLine[0])).add(Integer.parseInt(readLine[1]));
