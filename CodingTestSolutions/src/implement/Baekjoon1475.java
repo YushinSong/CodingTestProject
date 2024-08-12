@@ -18,7 +18,7 @@ public class Baekjoon1475 {
             else numCount[number]++;
         }
 
-        numCount[9] = numCount[9] % 2 == 0 ? numCount[9] / 2 : numCount[9] / 2 + 1;
+        numCount[9] = (numCount[9] / 2) + (numCount[9] % 2);
         System.out.println(Arrays.stream(numCount).max().getAsInt());
 
         br.close();
