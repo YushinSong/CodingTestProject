@@ -22,12 +22,8 @@ public class Baekjoon11286 {
             int input = Integer.parseInt(br.readLine());
             if(input != 0)
                 pq.add(input);
-            else{
-                if(pq.isEmpty())
-                    System.out.println(0);
-                else
-                    System.out.println(pq.poll());
-            }
+            else
+                System.out.println(pq.isEmpty() ? 0 : pq.poll());
         }
 
         br.close();
