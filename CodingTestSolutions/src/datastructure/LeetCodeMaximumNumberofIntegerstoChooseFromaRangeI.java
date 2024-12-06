@@ -1,7 +1,8 @@
 package src.datastructure;
 
+import java.util.*;
+
 public class LeetCodeMaximumNumberofIntegerstoChooseFromaRangeI {
-    import java.util.*;
 
     class Solution {
         public int maxCount(int[] banned, int n, int maxSum) {
